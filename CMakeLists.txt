@@ -15,6 +15,7 @@ add_library(apriltags ${SOURCE_FILES})
 
 find_package(Eigen REQUIRED)
 include_directories(${Eigen_INCLUDE_DIR})
+include_directories(/usr/include/eigen3)
 
 find_package(OpenCV REQUIRED)
 include_directories(${OpenCV_INCLUDE_DIRS})
@@ -29,5 +30,4 @@ install(TARGETS apriltags
   RUNTIME DESTINATION bin
   LIBRARY DESTINATION lib 
   ARCHIVE DESTINATION lib
-  
   )
