@@ -7,19 +7,19 @@
 
 #include <Eigen/Dense>
 
-#include "AprilTags/Edge.h"
-#include "AprilTags/FloatImage.h"
-#include "AprilTags/Gaussian.h"
-#include "AprilTags/GrayModel.h"
-#include "AprilTags/GLine2D.h"
-#include "AprilTags/Gridder.h"
-#include "AprilTags/Homography33.h"
-#include "AprilTags/MathUtil.h"
-#include "AprilTags/Quad.h"
-#include "AprilTags/TagFamily.h"
-#include "AprilTags/UnionFindSimple.h"
+#include "Edge.h"
+#include "FloatImage.h"
+#include "Gaussian.h"
+#include "GrayModel.h"
+#include "GLine2D.h"
+#include "Gridder.h"
+#include "Homography33.h"
+#include "MathUtil.h"
+#include "Quad.h"
+#include "TagFamily.h"
+#include "UnionFindSimple.h"
 
-#include "AprilTags/TagDetector.h"
+#include "TagDetector.h"
 
 //#define DEBUG_APRIL
 

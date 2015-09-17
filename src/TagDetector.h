@@ -5,12 +5,12 @@
 
 #include "opencv2/opencv.hpp"
 
-#include "AprilTags/TagDetection.h"
-#include "AprilTags/TagFamily.h"
-#include "AprilTags/FloatImage.h"
-#include "AprilTags/GLineSegment2D.h"
-#include "AprilTags/XYWeight.h"
-#include "AprilTags/Segment.h"
+#include "TagDetection.h"
+#include "TagFamily.h"
+#include "FloatImage.h"
+#include "GLineSegment2D.h"
+#include "XYWeight.h"
+#include "Segment.h"
 
 namespace AprilTags {
 
