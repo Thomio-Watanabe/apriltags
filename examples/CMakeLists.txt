@@ -5,9 +5,9 @@ link_libraries(apriltags)
 find_package(OpenCV REQUIRED)
 include_directories(${OpenCV_INCLUDE_DIRS})
 
-find_package(Eigen3 REQUIRED)
-include_directories(${Eigen3_INCLUDE_DIRS})
-include_directories(/usr/include/eigen3)
+find_package(PkgConfig)
+pkg_check_modules(PC_Eigen3 REQUIRED eigen3)
+include_directories(${PC_Eigen3_INCLUDE_DIRS})
 
 add_executable(apriltags_demo apriltags_demo.cpp Serial.cpp)
 target_link_libraries(apriltags_demo ${OpenCV_LIBS} v4l1 v4l2)
